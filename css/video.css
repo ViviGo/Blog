@@ -1,0 +1,143 @@
+@charset "utf-8";
+.middle {									/* 有关导航栏下方显示位置的样式 */
+	padding: 0px;
+	width: 75%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.middle .address {
+	margin: 0px;
+	height: 35px;
+	width: 100%;
+	line-height: 35px;
+	text-decoration: none;
+	color: #000;
+	padding: 0px;
+	font-size: 15px;
+	font-weight: normal;
+}
+.middle .address .left {
+	font-size: 15px;
+	line-height: 35px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+	display: inline;
+}
+.middle .address span {
+	font-size: 15px;
+	line-height: 35px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	vertical-align: middle;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	margin: 0px;
+}
+.middle .address span a {
+	color: #000;
+	text-decoration: none;
+}
+.container {
+	background-color: #FFF;
+	padding: 0px;
+	width: 75%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.container .video-info-wrap.clearfix {
+	padding: 20px;
+}
+.container .video-content-wrap .video-content-list .video-module .lesson-list .lesson-content.clearfix a .time {
+	display: block;
+	width: 20%;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+.container .video-content-wrap .video-content-list .video-module {
+	    margin-bottom: 10px;
+}
+
+
+.container .video-info-wrap.clearfix .video-info-text {
+	width: 65%;
+	padding-top: 10px;
+	float: left;
+	padding-left: 30px;
+}
+.container .video-content-wrap {
+	width: 100%;
+	padding-top: 30px;
+	padding-right: 0;
+	padding-bottom: 30px;
+	padding-left: 0;
+}
+.container .video-content-wrap .video-content-list .video-module {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 46px;
+	padding-bottom: 0px;
+	padding-left: 26px;
+}
+
+.container .video-content-wrap .video-content-list .video-module .title-h2 {
+	height: 60px;
+	line-height: 60px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	background-color: #448c73;
+	cursor: pointer;
+	padding-left: 10px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+.container .video-content-wrap .video-content-list .video-module .lesson-list .lesson-content.clearfix {
+	height: 58px;
+	line-height: 58px;
+	border-bottom: 1px solid #b5b5b5;
+	color: #0f0e0e;
+	font-size: 16px;
+	cursor: pointer;
+
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAGXRFW…9QDn7PfAyqBeNtG4BGrH0HYBx1AFYLOTWQW4H3NX8LMADr367LIacyrAAAAABJRU5ErkJggg==) 33px no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.container .video-content-wrap .video-content-list .video-module .lesson-list {
+	margin: 0px;
+	padding: 0px;
+}
+
+.video-content-wrap ul.video-content-list li.video-module ul.lesson-list li.lesson-content:nth-child(even) {
+    background-color: #dee0e0;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.fl{
+	float:left;
+}

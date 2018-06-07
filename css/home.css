@@ -1,0 +1,62 @@
+@charset "utf-8";
+.container {							/* 放置内容的div层样式 */
+	padding: 0px;
+	width: 75%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.transition {							/* 过渡段样式 */
+	background-color: #FA5C41;
+	height: 20px;
+}
+.copyright {						/* 最底部的作者信息条样式 */
+	font-size: 16px;
+	line-height: 30px;
+	color: #FA5C41;
+	text-decoration: none;
+	text-align: center;
+	padding: 0px;
+	height: 30px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #333;
+}
+.fix {							/* 最底部的作者信息条样式 */
+	position:relative;
+	/*等于footer的高度*/
+	margin-bottom:-20px;
+	clear:both;
+}
+
+.fixed_side_menu {				/* 返回顶部的标志样式  */
+	position: fixed;
+    right: 40px;
+    bottom: 100px;
+    width: 50px;
+}
+li {
+	list-style-type: none;
+}
+.fixed_side_menu .side_list {
+	height: 120px;
+	width: 40px;
+	background-color: #FFF;
+	margin: 0px;
+	padding: 0px;
+}
+
+.fixed_side_menu .side_list #returnTop {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color:#E1E1E1;
+}
+.fixed_side_menu .side_list #QQ {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color:#E1E1E1;
+}

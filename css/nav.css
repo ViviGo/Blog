@@ -1,0 +1,99 @@
+/* CSS Document */
+.nav {				/* 图片与导航栏的共用的样式 */
+	padding: 0px;
+	width: 75%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 230px;
+	clear: both;
+}
+.picture {			/* 图片样式 */
+	background-image: url(../img/cat%20end.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.9;		/* 透明度为90% */
+	height: 200px;
+	margin-top:-20px;	/* 若margin：0；此处图片会与顶部黑条产生间距，故此 */
+	padding: 0px;
+	float: none;
+}
+.picture .name {		/*图片上的文字样式与位置*/
+	font-size: 36px;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	width: 40%;
+	margin: 0px;
+	padding-top: 70px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.picture .name marquee {		/* 图片上名字下方小字的样式 */
+	font-size: 9px;
+	width:200px;
+	height:50px;
+}
+.nav .nav_buttom {			/* 导航栏样式 */
+	height: 30px;
+	background: rgba(80,80,80,0.5);		/*设置导航栏颜色透明度50%*/
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	line-height: 30px;
+	text-decoration: none;
+	padding: 0px;
+}
+.nav .nav_buttom ul li {		/* 每个导航栏样式 */
+	float: left;
+	width: 14.285%;
+	text-align: center;
+	display: inline-block;		
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-decoration: none;
+}
+.nav .nav_buttom ul {			/* 改变ul固定样式 */
+	margin: 0px;
+	padding: 0px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+.nav .nav_buttom ul #nav_current {		/* 显示目前页面时导航栏的样式 */
+	background: #E15782;
+	color: #FFF;
+	font-weight: bold;
+	border-radius: 50px 0;
+}
+.nav .nav_buttom ul #nav_current a {		
+	cursor: pointer;					/* 鼠标图标自动变成手 */
+	display: block;
+	color: #FFF;
+}
+
+.nav .nav_buttom ul li:hover a {		/* 鼠标在导航栏盘旋样式 */
+	background: #E15782;
+	border-radius: 50px 0;				/* 边界进行圆角半径50px的转换 */
+	text-shadow: #333 1px 1px 1px;
+	font-weight: bold;
+}
+.nav .nav_buttom ul li a {				
+	display: block;
+	text-decoration: none;
+}
+.nav .nav_buttom ul li a:link{				/* 点击时不会变色 */
+	color: #FFF;
+}
+.nav .nav_buttom ul li a:visited{			/* 点击后不会变色 */
+	color: #FFF;
+	text-decoration: none;
+}

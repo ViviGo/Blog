@@ -1,0 +1,93 @@
+@charset "utf-8";
+.middle {							/* 有关导航栏下方显示位置的样式 */
+	padding: 0px;
+	width: 75%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.middle .address {				
+	margin: 0px;
+	height: 35px;
+	width: 100%;
+	line-height: 35px;
+	text-decoration: none;
+	color: #000;
+	padding: 0px;
+	font-size: 15px;
+	font-weight: normal;
+}
+.middle .address .left {
+	font-size: 15px;
+	line-height: 35px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+	display: inline;
+}
+.middle .address span {
+	font-size: 15px;
+	line-height: 35px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	vertical-align: middle;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	margin: 0px;
+}
+.middle .address span a {
+	color: #000;
+	text-decoration: none;
+}
+.container {
+	width: 75%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #FFF;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 50px;
+	padding-left: 0px;
+}
+.container img {
+	padding: 0px;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	float: left;
+}
+.container p {
+	text-indent: 2em;
+	line-height: 20px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	margin-top: 0px;
+	margin-right: 30px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.container h3 {
+	margin: 0px;
+	padding: 0px;
+}
+.container img {
+	margin: 0px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}

@@ -1,0 +1,106 @@
+#rollbox {
+	width: 600px;     /*这里600x300是图片的宽高*/
+	height: 300px;
+	overflow: hidden;   /*隐藏溢出的图片，因为图片左浮动，总宽度为4200*/
+	position: relative;
+	float: left;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	clear: both;
+}
+#list {
+	width: 4200px;   /*这里设置7张图片总宽度*/
+	height: 300px;
+	position: absolute;  /*基于父容器rollbox进行定位*/
+	z-index: 1;
+	top: 6px;
+}
+#list img { 
+    float: left;
+}
+#buttons { 
+    position: absolute; 
+    height: 10px; 
+    width: 100px; 
+    z-index: 2;   /*按钮在图片的上面*/
+    bottom: 20px; 
+    left: 250px;
+}
+#buttons span { 
+    cursor: pointer; 
+    float: left; 
+    border: 1px solid #fff; 
+    width: 10px; 
+    height: 10px; 
+    border-radius: 50%; 
+    background: #333; 
+    margin-right: 5px;
+}
+#buttons .on {  
+    background: orangered;   /*选中的按钮样式*/
+}
+.arrow { 
+    cursor: pointer; 
+    display: none;    /*左右切换按钮默认先隐藏*/
+    line-height: 39px; 
+    text-align: center; 
+    font-size: 36px; 
+    font-weight: bold; 
+    width: 40px; 
+    height: 40px;  
+    position: absolute; 
+    z-index: 2; 
+    top: 140px; 
+    background-color: RGBA(0,0,0,.3); 
+    color: #fff;
+}
+.arrow:hover { 
+    background-color: RGBA(0,0,0,.7);
+}
+#rollbox:hover .arrow { 
+    display: block;   /*当鼠标放上去容器上面就显示左右切换按钮*/
+}
+#prev { 
+    left: 20px;
+}
+#next { 
+    right: 20px;
+}
+a{
+    text-decoration: none;
+}
+.motto ul {
+	margin-top: 100px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.motto ul li {
+	font-size: 16px;
+	text-decoration: none;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	list-style-type: none;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 15px;
+	color: #FFF;
+}
+.motto {
+	float: left;
+	height: 300px;
+	width: 390px;
+	color: #FFF;
+	background-image: url(../img/motto.jpg);
+	text-decoration: none;
+	vertical-align: middle;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	
+}
